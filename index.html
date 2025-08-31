@@ -1,0 +1,102 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here </title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+    <nav>
+  <ul>
+    <li class="brand"><img src="logo.jpg" alt="Spotify"> Spotify      Home     About</li>
+
+    <!-- This pushes account bar to the right -->
+    <li class="account">
+      <div class="user-info" id="userInfo">
+        <img src="default-user.png" alt="User" id="userAvatar">
+        <span id="username">Guest</span>
+      </div>
+      <button id="loginBtn">Login</button>
+      <button id="logoutBtn" style="display:none;">Logout</button>
+    </li>
+  </ul>
+</nav>
+
+    <div class="container">
+        
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div>
+                <div class="songItem">
+                   <img src="cover1.jpg" alt="1">
+                    <span class="songName">A bar song</span>
+                    <span class="songlistplay"><span class="timestamp">05:34  <i class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                   <img src="cover2.jpg" alt="2">
+                    <span class="songName">Let me love you</span>
+                    <span class="songlistplay"><span class="timestamp">04:24  <i class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                   <img src="logo3.jpg" alt="3">
+                    <span class="songName">Bin Tere </span>
+                    <span class="songlistplay"><span class="timestamp">02:12  <i class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                   <img src="logo4.jpg" alt="4">
+                    <span class="songName">Humnava mere</span>
+                    <span class="songlistplay"><span class="timestamp">06:56  <i class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                   <img src="logo5.jpg" alt="5">
+                    <span class="songName">They mad</span>
+                    <span class="songlistplay"><span class="timestamp">01:21  <i class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                   <img src="logo6.jpg" alt="6">
+                    <span class="songName">Rich the kid</span>
+                    <span class="songlistplay"><span class="timestamp">00:58  <i class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+            
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100" >
+        <div class="iocns">
+
+
+            <div class="icons">
+    <i class="fa-solid fa-backward-step" id="previous"></i>
+    <i class="fa-solid fa-circle-play" id="masterPlay"></i>
+    <i class="fa-solid fa-forward-step" id="next"></i>
+</div>
+
+
+            
+
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="92px" alt=""> Let me love you - Justin beiber
+
+        </div>
+        </div>
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <div>
+
+        <span id="masterSongName">A bar song</span>
+
+   </div>
+
+
+  
+
+ </body>
+ </html> 
