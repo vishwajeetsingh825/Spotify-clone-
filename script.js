@@ -114,7 +114,7 @@ document.getElementById('previous').addEventListener('click', ()=>{
 
 document.getElementById('next').addEventListener('click', ()=>{
     if(songIndex >= songs.length-1){
-        songIndex = 0;   // loop back
+        songIndex = 0;   
     } else {
         songIndex += 1;
     }
